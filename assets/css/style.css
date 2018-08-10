@@ -1,0 +1,59 @@
+.jumbotron {
+    background-image: url(../images/train\ 3.jpg);
+    width: 100%;
+    background-size: cover;
+    height: 300px;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(189, 178, 170);
+}
+
+.display-4{
+    font-family: 'Comfortaa', cursive;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 80px;
+    padding: 40px 0 10px 0;
+}
+
+.lead {
+    font-family: 'Comfortaa', cursive;
+    color: whitesmoke;
+    text-align: center; 
+    font-size: 36px;
+}
+
+.container {
+    
+    float: left;
+    margin-left: 0;
+}
+
+.table {
+    
+    width: 80%;
+    float: left;
+    
+    
+    
+
+      
+}
+
+.form-control {
+    border-color: rgb(143, 110, 40);
+    border-width: 2px;
+}
+
+.form-group {
+    font-weight: bold;
+}
+
+.btn {
+    background-color: rgb(143, 110, 40);
+    border: none;
+}
+
+
