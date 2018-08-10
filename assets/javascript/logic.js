@@ -68,7 +68,7 @@ $("#addTrains").on("click", function (event) {
 
     // Current Time
     var currentTime = moment();
-    console.log("CURRENT TIME: " + moment(currentTime).format("hh:mm"));
+    console.log("CURRENT TIME: " + moment(currentTime).format("HH:mm"));
 
     // Difference between the times
     var diffTime = moment().diff(moment(newTrain), "minutes");
@@ -83,8 +83,8 @@ $("#addTrains").on("click", function (event) {
     console.log("MINUTES TILL TRAIN: " + trAway);
 
     // Next Train
-    var newTrain = moment().add(trAway, "minutes");
-    console.log("ARRIVAL TIME: " + moment(newTrain).format("hh:mm"));
+    var trArrival = moment().add(trAway, "minutes");
+    console.log("ARRIVAL TIME: " + moment(trArrival).format("HH:mm"));
 
 
     // Add row to the time table
@@ -97,6 +97,6 @@ $("#addTrains").on("click", function (event) {
     );
 
   // Append the new row to the table
-  $("#timeTable > tbody").append(newRow);
+  $("#timeTable > tbody").prepend(newRow);
   
     })
