@@ -25,21 +25,19 @@ body {
     font-size: 36px;
 }
 
-.container {
-    
-    float: left;
+.form {
     margin-left: 0;
+    
+    float: left
 }
 
-.table {
-    
-    width: 80%;
-    float: left;
-    
-    
-    
 
-      
+
+.table {
+    margin-top: -32em;
+    width: 80%;
+    margin-left: 300px;
+    
 }
 
 .form-control {
