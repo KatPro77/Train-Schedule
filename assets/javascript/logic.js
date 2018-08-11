@@ -83,7 +83,7 @@ $("#addTrains").on("click", function (event) {
     console.log("MINUTES TILL TRAIN: " + trAway);
 
     // Next Train
-    var trArrival = moment().add(trAway, "minutes");
+    var trArrival = moment().add(trAway, "minutes").format("HH:mm");
     console.log("ARRIVAL TIME: " + moment(trArrival).format("HH:mm"));
 
 
